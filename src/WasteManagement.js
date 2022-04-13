@@ -1,10 +1,10 @@
-// import ServiseFrash from "./components/freshManagement/ServiseFrash";
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
+
 
 function WasteManagement(){
     return(
-        <Navbar />
-        // <ServiseFrash />
+        
+        <Navbar/>
     )
 }
 

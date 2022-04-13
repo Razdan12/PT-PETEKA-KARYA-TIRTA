@@ -1,0 +1,61 @@
+.row{
+    font-family: 'Nunito Sans', sans-serif;
+    color:white;
+    
+   
+}
+
+.servis {
+    background-color: #5F9F0D;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+.location{
+    background-color: #83C82B;
+    padding: 20px;
+    font-size: 20px
+}
+.arcivment{
+    background-color: #A3EC47;
+    padding: 20px;
+    font-size: 20px
+}
+
+.link{
+    color:white;
+}
+.link:hover{
+    color:rgb(206, 194, 194);
+    text-decoration: none;
+}
+
+.content-servis{
+    background-color: #5F9F0D;
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+}
+
+.content-location{
+    background-color: #83C82B;
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+}
+.content-arcivment{
+    background-color: #A3EC47;
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+}
+
+.teks{
+    padding: 50px;
+}
+
+.gambar{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}

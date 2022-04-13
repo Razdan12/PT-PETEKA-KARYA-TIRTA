@@ -1,8 +1,10 @@
-import Navbar from "./Navbar";
+import TankServis from "./components/TankTerminal/TankServis";
+
+
 
 function TankTerminal(){
     return(
-        <Navbar />
+       <TankServis /> 
     )
 }
 

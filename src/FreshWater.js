@@ -1,8 +1,10 @@
-import Navbar from "./Navbar";
+import FreshServis from "./components/FreshWater/FreshServis";
+
+
 
 function FreshWater(){
     return(
-        <Navbar />
+        <FreshServis />
     )
 }
 

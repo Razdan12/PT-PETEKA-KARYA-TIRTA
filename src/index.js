@@ -5,6 +5,8 @@ import FreshWater from "./FreshWater";
 import Home from "./Home";
 import "./index.css";
 import TankTerminal from "./TankTerminal";
+import ThankLocation from "./components/TankTerminal/TankLocation";
+import ThankArcivment from "./components/TankTerminal/TankArcivment";
 
 render(
   <BrowserRouter>
@@ -13,7 +15,8 @@ render(
       <Route path="/tank-terminal" element={<TankTerminal />} />
       <Route path="/fresh-water" element={<FreshWater />} />
       <Route path="/waste-management" element={<WasteManagement />} />
-      
+      <Route path="/tank-location" element={<ThankLocation />} />
+      <Route path="/tank-arcivment" element={<ThankArcivment />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")
