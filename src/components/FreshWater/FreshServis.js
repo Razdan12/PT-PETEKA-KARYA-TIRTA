@@ -9,6 +9,7 @@ function FreshServis(){
         
     <div className="tank">
         <Navbar/>
+        
         <div className="row">
             
                 <div className="col-4 frehServis text-center"><Link className="link" to="/fresh-water">

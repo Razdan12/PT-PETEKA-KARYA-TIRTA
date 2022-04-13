@@ -1,31 +1,32 @@
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
-import "./css/FreshWater.css"
+import "./css/freshWater.css"
 import gambar from "./image/kuda.jpg"
 
 
 function FreshArcivment(){
     return(
         
-    <div className="tank">
+        <div className="tank">
         <Navbar/>
+        
         <div className="row">
             
-                <div className="col-4 servis text-center"><Link className="link" to="/tank-terminal">
+                <div className="col-4 frehServis text-center"><Link className="link" to="/fresh-water">
                     Servis</Link>
                 </div>
                         
-                <div className="col-4 location text-center"><Link className="link" to="/tank-location">
+                <div className="col-4 freshLocation text-center"><Link className="link" to="/fresh-location">
                     Location</Link>
                 </div>
                         
-                <div className="col-4 arcivment text-center"><Link className="link" to="/tank-arcivment">
+                <div className="col-4 FreshArcivment text-center"><Link className="link" to="/fresh-arcivment">
                     Arcivment</Link>
                 </div>
             
         </div>
 
-        <div className="row content-arcivment">
+        <div className="row content-FreshArcivment">
             <div className="col-6 gambar text-center">
             <img className="" src={gambar} alt="gambar"/>
             </div>
