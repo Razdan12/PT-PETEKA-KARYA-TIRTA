@@ -9,6 +9,8 @@ import ThankLocation from "./components/TankTerminal/TankLocation";
 import ThankArcivment from "./components/TankTerminal/TankArcivment";
 import FreshLocation from "./components/FreshWater/FreshLocation";
 import FreshArcivment from "./components/FreshWater/FreshArcivment";
+import WasteLocation from "./components/WasteManagement/WasteLocation";
+import WasteArcivment from "./components/WasteManagement/WasteArcivment";
 
 render(
   <BrowserRouter>
@@ -21,6 +23,8 @@ render(
       <Route path="/tank-arcivment" element={<ThankArcivment />} />
       <Route path="/fresh-location" element={<FreshLocation />} />
       <Route path="/fresh-arcivment" element={<FreshArcivment />} />
+      <Route path="/waste-location" element={<WasteLocation />} />
+      <Route path="/waste-arcivment" element={<WasteArcivment />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById("root")

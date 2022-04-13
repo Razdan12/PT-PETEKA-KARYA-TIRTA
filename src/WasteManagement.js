@@ -1,10 +1,10 @@
-import Navbar from "./components/Navbar";
+
+import WasteServis from "./components/WasteManagement/WasteServis";
 
 
 function WasteManagement(){
     return(
-        
-        <Navbar/>
+        <WasteServis />
     )
 }
 

@@ -1,31 +1,31 @@
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar";
-import "./css/tank.css"
+import "./css/wasteManagement.css"
 import gambar from "./image/kuda.jpg"
 
 
-function TankServis(){
+function WasteServis(){
     return(
         
     <div className="tank">
         <Navbar/>
         <div className="row">
             
-                <div className="col-4 servis text-center"><Link className="link" to="/tank-terminal">
+                <div className="col-4 WasteServis text-center"><Link className="link" to="/waste-management">
                     Servis</Link>
                 </div>
                         
-                <div className="col-4 location text-center"><Link className="link" to="/tank-location">
+                <div className="col-4 WasteLocation text-center"><Link className="link" to="/waste-location">
                     Location</Link>
                 </div>
                         
-                <div className="col-4 arcivment text-center"><Link className="link" to="/tank-arcivment">
+                <div className="col-4 WasteArcivment text-center"><Link className="link" to="/waste-arcivment">
                     Arcivment</Link>
                 </div>
             
         </div>
 
-        <div className="row content-servis">
+        <div className="row content-WasteServis">
             <div className="col-6 gambar text-center">
             <img className="" src={gambar} alt="gambar"/>
             </div>
@@ -37,4 +37,4 @@ function TankServis(){
     </div>
     )
 }
-export default TankServis;
+export default WasteServis;
