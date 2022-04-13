@@ -1,11 +1,7 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/WasteManagement/WasteManagementNavbar";
 
-
-function WasteManagement(){
-    return(
-        
-        <Navbar/>
-    )
+function WasteManagement() {
+	return <Navbar />;
 }
 
 export default WasteManagement;
