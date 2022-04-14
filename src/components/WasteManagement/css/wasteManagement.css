@@ -5,20 +5,20 @@
    
 }
 
-.servis {
-    background-color: #5F9F0D;
+.WasteServis {
+    background-color: #710505;
     padding: 20px;
     font-size: 20px;
     
 }
 
-.location{
-    background-color: #83C82B;
+.WasteLocation{
+    background-color: #9B0505;
     padding: 20px;
     font-size: 20px
 }
-.arcivment{
-    background-color: #A3EC47;
+.WasteArcivment{
+    background-color: #E00202;
     padding: 20px;
     font-size: 20px
 }
@@ -31,21 +31,21 @@
     text-decoration: none;
 }
 
-.content-servis{
-    background-color: #5F9F0D;
+.content-WasteServis{
+    background-color: #710505;;
     width: 100%;
     margin: 0px;
     height: 100%;
 }
 
-.content-location{
-    background-color: #83C82B;
+.content-WasteLocation{
+    background-color: #9B0505;
     width: 100%;
     margin: 0px;
     height: 100%;
 }
-.content-arcivment{
-    background-color: #A3EC47;
+.content-WasteArcivment{
+    background-color: #E00202;
     width: 100%;
     margin: 0px;
     height: 100%;

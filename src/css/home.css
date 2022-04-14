@@ -86,10 +86,47 @@
     background-color: #0284c038;
     align-items: center;
     padding-top: 10%;
+    z-index: 2;
 }
 .img-fluid{
     
+    width: 250px;
+    height: 250px;
+   
+}
+
+.arrow{
+    display:flex;
+    margin-top: -20%;
+    margin-left: 70%;
+    z-index: 3;
+    width: 200px;
+    height: 100px;
+
+}
+
+.qmBlue{
+    display:flex;
+    z-index: 1;
+    width: 164px;
+    height: 164px;
+    margin-left: 289px;
+    margin-top: 50px;
+}
+
+.qmRed{
+    display:flex;
+    z-index: 3;
     width: 200px;
     height: 200px;
-   
+    margin-top: -50px;
+    margin-left: 150px;
+}
+.qmGreen{
+    display:flex;
+    z-index: 2;
+    width: 164px;
+    height: 164px;
+    margin-left: 250px;
+    margin-top: -50px;
 }
