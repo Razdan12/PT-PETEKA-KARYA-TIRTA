@@ -49,7 +49,7 @@ function FreshArcivment() {
 					</p>
 				</div>
 			</div>
-			<div className="row content-arcivment">
+			<div className="row content-FreshArcivment">
 				<div className="col-6 gambar text-center">
 					<img className="" src={gambar1} alt="gambar" />
 				</div>
@@ -68,7 +68,7 @@ function FreshArcivment() {
 					</p>
 				</div>
 			</div>
-			<div className="row content-arcivment">
+			<div className="row content-FreshArcivment">
 				<div className="col-6 gambar text-center">
 					<img className="" src={gambar} alt="gambar" />
 				</div>
@@ -87,7 +87,7 @@ function FreshArcivment() {
 					</p>
 				</div>
 			</div>
-			<div className="row content-arcivment">
+			<div className="row content-FreshArcivment">
 				<div className="col-6 gambar text-center">
 					<img className="" src={gambar} alt="gambar" />
 				</div>
