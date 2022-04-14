@@ -10,7 +10,9 @@ const WasteManagementNavbar = () => {
 			<div className="col-6 logo text-left">
 				<img clasName="img-fluid" src={logo} alt="logo" />
 			</div>
-
+			<div className="col-2 text-left">
+				<p>Waste Management</p>
+			</div>
 			<div className="col back text-right">
 				<Link to="/">
 					<img clasName="img-fluid rounded" src={IconHome} alt="home" />

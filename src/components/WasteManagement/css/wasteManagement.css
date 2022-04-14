@@ -32,20 +32,26 @@
 }
 
 .content-WasteServis{
-    background-color: #710505;;
+    background-image: url(../image/image_ot-germany-hamburg_tanks2_1920px\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     margin: 0px;
     height: 100%;
 }
 
 .content-WasteLocation{
-    background-color: #9B0505;
+    background-image: url(../image/image_ot-germany-hamburg_tanks2_1920px\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     margin: 0px;
     height: 100%;
 }
 .content-WasteArcivment{
-    background-color: #E00202;
+    background-image: url(../image/image_ot-germany-hamburg_tanks2_1920px\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     margin: 0px;
     height: 100%;
@@ -58,4 +64,8 @@
 .gambar{
     padding-top: 50px;
     padding-bottom: 70px;
+}
+
+.CardImage{
+    width: 300px;
 }

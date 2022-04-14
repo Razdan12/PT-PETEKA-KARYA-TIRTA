@@ -32,8 +32,8 @@ function FreshServis() {
 			</div>
 
 			<div className="row content-FreshServis">
-				<div className="col-6 gambar text-center">
-					<div className="d-flex">
+				<div className="col-12 gambar card1">
+					<div className="d-flex text-center">
 						<Card style={{ width: "42rem" }}>
 							<Card.Img variant="top" src={tabung} />
 							<Card.Body>

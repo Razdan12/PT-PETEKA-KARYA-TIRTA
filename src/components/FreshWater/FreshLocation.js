@@ -28,10 +28,10 @@ export function FreshLocation() {
 			</div>
 
 			<div className="row content-FreshLokation">
-				<div className="col-6 gambar text-center">
-					<img className="" src={gambar} alt="gambar" />
+				<div className="col-7 gambar text-center">
+					<img className="image-fluid" src={gambar} alt="gambar" />
 				</div>
-				<div className="col-6 teks">
+				<div className="col-5 teks">
 					<p>
 						What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
 						printing and typesetting industry. Lorem Ipsum has been the

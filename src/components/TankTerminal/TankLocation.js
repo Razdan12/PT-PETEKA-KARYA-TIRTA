@@ -28,10 +28,10 @@ function ThankLocation() {
 			</div>
 
 			<div className="row content-location">
-				<div className="col-6 gambar text-center">
+				<div className="col-7 gambar text-center">
 					<img className="" src={gambar} alt="gambar" />
 				</div>
-				<div className="col-6 teks col-5">
+				<div className="col-5 teks col-5">
 					<p>
 						What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
 						printing and typesetting industry. Lorem Ipsum has been the

@@ -1,11 +1,13 @@
+import { Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Navbar from "../WasteManagement/WasteManagementNavbar";
 import "./css/wasteManagement.css";
 import gambar from "./image/kuda.jpg";
 
+
 function WasteServis() {
 	return (
-		<div className="tank">
+		<div className="Waste">
 			<Navbar />
 			<div className="row">
 				<div className="col-4 WasteServis text-center">
@@ -28,23 +30,49 @@ function WasteServis() {
 			</div>
 
 			<div className="row content-WasteServis">
-				<div className="col-6 gambar text-center">
-					<img className="" src={gambar} alt="gambar" />
+				<div className="col-12 gambar text-center">
+					<div className="d-flex text-center">
+						<Card style={{ width: '30rem' }}>
+							<Card.Img variant="top CardImage" src={gambar} />
+							<Card.Body>
+								<Card.Title>Lorem Ipsum</Card.Title>
+								<Card.Text>
+								Some quick example text to build on the card title and make up the bulk of
+								the card's content.
+								</Card.Text>
+								
+								<Button variant="primary">Go somewhere</Button>
+							</Card.Body>
+						</Card>
+						<Card style={{ width: '30rem' }}>
+							<Card.Img variant="top CardImage" src={gambar} />
+							<Card.Body>
+								<Card.Title>Lorem Ipsum</Card.Title>
+								<Card.Text>
+								Some quick example text to build on the card title and make up the bulk of
+								the card's content.
+								</Card.Text>
+								
+								<Button variant="primary">Go somewhere</Button>
+							</Card.Body>
+						</Card>
+						<Card style={{ width: '30rem' }}>
+							<Card.Img variant="top CardImage" src={gambar} />
+							<Card.Body>
+								<Card.Title>Lorem Ipsum</Card.Title>
+								<Card.Text>
+								Some quick example text to build on the card title and make up the bulk of
+								the card's content.
+								</Card.Text>
+								
+								<Button variant="primary">Go somewhere</Button>
+							</Card.Body>
+						</Card>
+					
+					</div>
+					
 				</div>
-				<div className="col-6 teks">
-					<p>
-						What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-						printing and typesetting industry. Lorem Ipsum has been the
-						industry's standard dummy text ever since the 1500s, when an unknown
-						printer took a galley of type and scrambled it to make a type
-						specimen book. It has survived not only five centuries, but also the
-						leap into electronic typesetting, remaining essentially unchanged.
-						It was popularised in the 1960s with the release of Letraset sheets
-						containing Lorem Ipsum passages, and more recently with desktop
-						publishing software like Aldus PageMaker including versions of Lorem
-						Ipsum.
-					</p>
-				</div>
+				
 			</div>
 		</div>
 	);
